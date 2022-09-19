@@ -1,0 +1,83 @@
+/* bg image */
+body {
+    background-image: url(Images/board.jpg);
+    font-family: "Architects Dauther";
+}
+
+
+/* h1 */
+.heading {
+    color: white;
+    font-family: 'Macondo', cursive;
+    font-size: 80px;
+}
+
+
+/* div form */
+.bg-note-book{
+    background-image: url(Images/notebookW.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px 10px;
+}
+.input {
+    display: block;
+    width: 100%;
+}
+
+
+/* note css */
+ul {
+    background-image: url(Images/note.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    width: 280px;
+    height: 280px;
+    list-style: none;
+    display: inline-block;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+    overflow: auto;
+    height: 150px;
+    width: 200px;
+    margin: 5px 0px;
+}
+
+
+/* delete button */
+.close {
+    display: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+/* show the button when the mouse is hover the note*/
+ul:hover .close {
+    display: block; 
+}
+
+
+/* fade in image */
+.fadein:last-child {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+  
+}
+
+
+  
